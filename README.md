@@ -39,10 +39,10 @@ subtract(72, 50)
 ```
 ## Task
 
-### Create a function to *
-### Create a function to /
-### Create a function to %
-### Create a function to **
+#### Create a function to *
+#### Create a function to /
+#### Create a function to %
+#### Create a function to **
 ```
 def multiply(arg1, arg2):
     return arg1 * arg2
