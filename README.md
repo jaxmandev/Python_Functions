@@ -2,27 +2,22 @@
 
 ## Objectives:
 ```
-What are functions and why are they useful
-How to create a function
-Industry function best practices
-What are functions and why we use them:
+1. What are functions and why are they useful
+2. How to create a function
+3. Industry function best practices
+4. What are functions and why we use them:
 ```
 ## DRY: Dont, Repeat, Yourself
 
-## Creating a greetings function
-
-### Syntax def name_of_function():
-### Each function has a block of code to execute to ideally run one task
-### Note: We can assign variables to functions e.g. a = add(5, 7) and a = 12 forever more
+### Creating a greetings function
+- Syntax def name_of_function():
+- Each function has a block of code to execute to ideally run one task
+- Note: We can assign variables to functions e.g. a = add(5, 7) and a = 12 forever more
 ```
 def greeting(name):
     print(f"Welcome on board {name}, hope you'll enjoy the ride")
 # If we execute this program now it would display nothing as we have not called this function
-
-# Syntax to call a function:
-greeting('Matt')
 ```
-
 ## Create simple functions
 
 ### Creating a function that adds 2 arguments to eachother
@@ -66,6 +61,7 @@ def power(arg1, arg2):
 def modulus(arg1, arg2):
     return arg1 % arg2
 ```
+### A function needs a return statement such that a class needs __init__ function
 
 ## Can also use return() instead of print() which returns the answer of the function
 ```
